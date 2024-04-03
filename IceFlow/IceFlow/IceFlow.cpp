@@ -17,6 +17,7 @@ int main()
 		Buttons(); // start menu buttons
 
 		About(); // about screen 
+		Contacts(); // contacts screen
 		EndDrawing();
 	}
 	Unload();

@@ -132,6 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cpp\About.cpp" />
+    <ClCompile Include="cpp\Contacts.cpp" />
     <ClCompile Include="cpp\StartButtons.cpp" />
     <ClCompile Include="cpp\Textures.cpp" />
     <ClCompile Include="cpp\TimeShow.cpp" />
@@ -139,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\About.h" />
+    <ClInclude Include="include\Contacts.h" />
     <ClInclude Include="include\IceFlow.h" />
     <ClInclude Include="include\StartButtons.h" />
     <ClInclude Include="include\Textures.h" />

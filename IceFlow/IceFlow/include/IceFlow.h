@@ -4,4 +4,4 @@
 #include "TimeShow.h"
 #include "StartButtons.h"
 #include "About.h"
-
+#include "Contacts.h"
