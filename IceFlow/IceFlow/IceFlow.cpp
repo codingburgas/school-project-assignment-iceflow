@@ -19,6 +19,8 @@ int main()
 		About(); // about screen 
 		Contacts(); // contacts screen
 		EndDrawing();
+		
+		Menu();
 	}
 	Unload();
 	
