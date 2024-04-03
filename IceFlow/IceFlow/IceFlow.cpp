@@ -16,6 +16,7 @@ int main()
 		
 		Buttons(); // start menu buttons
 
+		About(); // about screen 
 		EndDrawing();
 	}
 	Unload();

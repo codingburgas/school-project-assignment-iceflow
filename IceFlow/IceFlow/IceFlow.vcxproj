@@ -131,12 +131,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cpp\About.cpp" />
     <ClCompile Include="cpp\StartButtons.cpp" />
     <ClCompile Include="cpp\Textures.cpp" />
     <ClCompile Include="cpp\TimeShow.cpp" />
     <ClCompile Include="IceFlow.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\About.h" />
     <ClInclude Include="include\IceFlow.h" />
     <ClInclude Include="include\StartButtons.h" />
     <ClInclude Include="include\Textures.h" />
