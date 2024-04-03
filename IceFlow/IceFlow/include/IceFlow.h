@@ -6,3 +6,4 @@
 #include "About.h"
 #include "Contacts.h"
 #include "SubjectMenu.h"
+#include "Results.h"

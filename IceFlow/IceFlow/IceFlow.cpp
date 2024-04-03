@@ -20,6 +20,7 @@ int main()
 		Contacts(); // contacts screen
 		EndDrawing();
 		
+		Result(); // result screen
 		Menu();
 	}
 	Unload();
