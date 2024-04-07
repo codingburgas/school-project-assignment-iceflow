@@ -36,10 +36,13 @@
     <ClCompile Include="cpp\SubjectMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cpp\Results.cpp">
+    <ClCompile Include="cpp\TestMode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cpp\Questions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Results.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,10 +68,13 @@
     <ClInclude Include="include\SubjectMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Results.h">
+    <ClInclude Include="include\TestMode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\Questions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Results.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,6 +2,7 @@
 #include "../include/StartButtons.h"
 #include "raylib.h"
 #include "../include/Textures.h"
+#include "../include/TestMode.h"
 
 bool MathON = 0, GeographyON = 0, EnglishON = 0;
 void Menu()
@@ -58,5 +59,7 @@ void Menu()
 			
 	}
 	
-	
+	Math();
+	Geography();
+    English();
 }

@@ -4,8 +4,13 @@
 #include <stdlib.h>
 bool Checker1 = 0, Checker2 = 0, Checker3 = 0;
 bool CheckerStartTest = 0;
-bool CheckerContacts = 0;
 
+// CheckCollisionPointRec(GetMousePosition(), { 55, 367, (float)CheckFor123Buttons.width, (float)CheckFor123Buttons.height }), //////// results hover
+// CheckCollisionPointRec(GetMousePosition(), { 55, 487, (float)CheckFor123Buttons.width, (float)CheckFor123Buttons.height }), ///////// about hover
+// CheckCollisionPointRec(GetMousePosition(), { 55, 617, (float)CheckFor123Buttons.width, (float)CheckFor123Buttons.height }), ////////// exit hover
+// check if any of the result,about and exit buttons are hovered
+
+bool CheckerContacts = 0;
 void Buttons()
 {
 	if (!CheckerStartTest && !Checker2 && !Checker1 && !CheckerContacts)

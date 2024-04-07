@@ -137,6 +137,7 @@
     <ClCompile Include="cpp\Results.cpp" />
     <ClCompile Include="cpp\StartButtons.cpp" />
     <ClCompile Include="cpp\SubjectMenu.cpp" />
+    <ClCompile Include="cpp\TestMode.cpp" />
     <ClCompile Include="cpp\Textures.cpp" />
     <ClCompile Include="cpp\TimeShow.cpp" />
     <ClCompile Include="IceFlow.cpp" />
@@ -149,6 +150,7 @@
     <ClInclude Include="include\Results.h" />
     <ClInclude Include="include\StartButtons.h" />
     <ClInclude Include="include\SubjectMenu.h" />
+    <ClInclude Include="include\TestMode.h" />
     <ClInclude Include="include\Textures.h" />
     <ClInclude Include="include\TimeShow.h" />
   </ItemGroup>

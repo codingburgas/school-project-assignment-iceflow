@@ -16,12 +16,13 @@ int main()
 		
 		Buttons(); // start menu buttons
 
-		About(); // about screen 
+		About(); //about screen
 		Contacts(); // contacts screen
+		Result(); //results statistics screen
+
+		Menu(); // main program menu and test mode
+
 		EndDrawing();
-		
-		Result(); // result screen
-		Menu();
 	}
 	Unload();
 	

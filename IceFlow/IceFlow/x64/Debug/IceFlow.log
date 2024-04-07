@@ -1,10 +1,22 @@
 ﻿  About.cpp
+  Contacts.cpp
+  Questions.cpp
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\Questions.cpp(16,28): warning C4566: character represented by universal-character-name '\u00ED' cannot be represented in the current code page (1251)
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\Questions.cpp(39,46): warning C4566: character represented by universal-character-name '\u00E1' cannot be represented in the current code page (1251)
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\Questions.cpp(46,20): warning C4566: character represented by universal-character-name '\u00E1' cannot be represented in the current code page (1251)
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\Questions.cpp(142,10): warning C4566: character represented by universal-character-name '\u00ED' cannot be represented in the current code page (1251)
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\Questions.cpp(142,41): warning C4566: character represented by universal-character-name '\u00E3' cannot be represented in the current code page (1251)
+  Results.cpp
   StartButtons.cpp
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\StartButtons.cpp(64,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  SubjectMenu.cpp
+  TestMode.cpp
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\TestMode.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\TestMode.cpp(159,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\TestMode.cpp(299,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Textures.cpp
   TimeShow.cpp
-C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\IceFlow\cpp\StartButtons.cpp(59,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   IceFlow.cpp
   Generating Code...
-  LINK : C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\x64\Debug\IceFlow.exe not found or not built by the last incremental link; performing full link
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   IceFlow.vcxproj -> C:\Users\User\Documents\school-project-assignment-iceflow\IceFlow\x64\Debug\IceFlow.exe
