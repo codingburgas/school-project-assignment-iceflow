@@ -8,11 +8,9 @@ tm* Calendar = localtime(&Seconds); // calculate the current year,day,minutes,se
 void ShowDate()
 {
     char Result[50];
-	strftime(Result, sizeof(Result), "%c", Calendar); // get the full day,year,second,hour,minutes in a char array, convert it from it
-    stringstream Conv(Result); // store in a stream which can be converted to a string
+    strftime(Result, sizeof(Result), "%a %b %d %Y", Calendar); // get the full day,year,second,hour,minutes in a char array, convert it from it
 
-    DrawText(Conv.str().substr(0, 10).c_str(), 830, 30, 25, RED); // show current day , month
-    DrawText(Conv.str().substr(19).insert(0," ").c_str(), 955, 30, 25, RED); // show current year
+    DrawText(Result, 830, 30, 25, RED); // show current day , month, year
 }
 void ShowHour()
 {
