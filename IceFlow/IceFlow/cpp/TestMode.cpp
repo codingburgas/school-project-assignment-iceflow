@@ -10,8 +10,8 @@ using namespace std;
 int ResultMath = 0, ResultGeography = 0, ResultEnglish = 0;
 int LastResultMath = 0, LastResultGeography = 0, LastResultEnglish = 0; // store last results for the result panel in the start menu
 
-static int i = rand() % 50 + 1; // random question chooser
-static int CurrentQuestion[3] = {}; // counter for how many question you have answered
+int i = rand() % 50 + 1; // random question chooser
+int CurrentQuestion[3] = {}; // counter for how many question you have answered
 void Math()
 {
 	srand(time(0));
